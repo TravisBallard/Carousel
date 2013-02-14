@@ -2,7 +2,7 @@
     <head>
         <title>Carousel Example</title>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <script src="jquery-1.8.3.js"></script>
+        <script src="jquery-1.9.1.min.js"></script>
         <script src="script.js"></script>
     </head>
     <body>
