@@ -1,0 +1,14 @@
+#carousel-wrap { height:156px; overflow:hidden; position:relative; width:990px; margin:100px auto; }
+
+#carousel-wrap #mask { width:910px; height:156px; overflow:hidden; margin-bottom:10px; margin:0 auto; position:relative; left:2px; }
+
+#carousel-wrap .carousel-left { display:block; height:17px; width:17px; background:transparent url(carousel-directional-sprite.png) 0 0 no-repeat; position:absolute; left:0px; top:70px; text-indent:-9999px; overflow:hidden; }
+#carousel-wrap .carousel-right { display:block; height:17px; width:17px; background:transparent url(carousel-directional-sprite.png) -17px 0 no-repeat; position:absolute; right:0px; top:70px; text-indent:-9999px; overflow:hidden; }
+
+#carousel { list-style-type:none; list-style-position:outside; width:915px; height:156px; overflow:hidden; margin-left:1px; padding:0!important; position:relative; }
+
+#carousel .carousel-item { float:left; margin-right:5px; height:126px; width:270px; padding:15px; color:white; font-family:'tahoma'; position:relative; font-size:3em;}
+#carousel .purple { background-color:#8f2766; }
+#carousel .orange { background-color:#e96f03; }
+#carousel .green { background-color:#6dbd1e; }
+#carousel .teal { background-color:#1eb9bb; }
